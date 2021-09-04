@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imagens/fundo.png);
+}
+
+#tituloPag {
+    font-family: 'Dancing Script', cursive; 
+    font-size: 20pt;
+}
+
+#navbarprincipal {
+    display: flex;
+    background-color: rgb(255, 206, 222);
+    justify-content: center;
+}
+
+#navbarprincipal .navbarContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#logo {
+    height: 70px;
+    width: auto;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#logoTitulo {
+    display: flex;
+    align-items: center ;
+}
