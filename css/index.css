@@ -2,41 +2,71 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
-
 body {
-    background-image: url(../imagens/fundo.png);
-}
-
-#tituloPag {
-    font-family: 'Dancing Script', cursive; 
-    font-size: 20pt;
-}
-
-#navbarprincipal {
     display: flex;
-    background-color: rgb(255, 206, 222);
     justify-content: center;
 }
 
-#navbarprincipal .navbarContainer {
-    width: 100%;
+#container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 50%;
+    background-color: #ffff7a;
+    box-shadow: 1px 1px 4px #777767;
+    border: 20px rgb(0, 0, 0);
+    margin-top: 20px;
 }
 
-#logo {
-    height: 70px;
-    width: auto;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+.container_questao {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;    
 }
 
-#logoTitulo {
+#questao {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 17pt;
+}
+
+.container_respostas {
     display: flex;
-    align-items: center ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botao_resposta {
+    text-align: left;
+    padding: 8px;
+    background-color:rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 5px;
+    margin: 7px;
+    box-shadow: 1px 1px 2px #777767;
+}
+
+#container_seguir {
+    display: flex;
+    justify-content: end;
+}
+
+#seguir {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    box-shadow: 1px 1px 2px #777767;
+}
+
+i {
+    font-size: 20px;
+    color: #ffff7a;
 }
