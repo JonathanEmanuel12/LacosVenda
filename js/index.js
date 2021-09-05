@@ -25,7 +25,7 @@ var pergunta4 = {
 var pergunta5 = {
     questao: "5) Qual o nome do alimento que possui frango e farinha de trigo em sua composição e que possui a forma de uma gota ",
     respostas: ["Pizza", "Pastel", "Coxinha", "Strogonoff", "Lasanha"],
-    correto: 5
+    correto: 3
 };
 
 var arrayPerguntas = [pergunta1, pergunta2, pergunta3, pergunta4, pergunta5];
